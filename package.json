@@ -1,10 +1,11 @@
 {
-  "name": "rn-css",
+  "name": "create-rn-css",
   "version": "1.0.0",
   "description": "Create and configure React Native Expo projects with TypeScript and NativeWind",
   "main": "./src/cli.js",
   "bin": {
-    "rn-css": "./bin/rn-css.js"
+    "rn-css": "bin/rn-css.js",
+    "create-rn-css": "bin/rn-css.js"
   },
   "files": [
     "bin",

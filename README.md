@@ -9,7 +9,7 @@
 ### Create a new project
 
 ```bash
-npx rn-css MyApp
+npx create-rn-css MyApp
 ```
 
 This will:
@@ -25,13 +25,13 @@ This will:
 
 ```bash
 cd MyExistingApp
-npx rn-css .
+npx create-rn-css .
 ```
 
 Or target a specific directory:
 
 ```bash
-npx rn-css ./MyExistingApp
+npx create-rn-css ./MyExistingApp
 ```
 
 This will:
@@ -113,16 +113,16 @@ file is modified.
 
 ```bash
 # New app called "MyApp"
-npx rn-css MyApp
+npx create-rn-css MyApp
 
 # Configure the current directory
-npx rn-css .
+npx create-rn-css .
 
 # Configure a specific directory
-npx rn-css ./projects/MyExistingApp
+npx create-rn-css ./projects/MyExistingApp
 
 # Force reconfigure even if NativeWind is already installed
-npx rn-css . --force
+npx create-rn-css . --force
 ```
 
 ---

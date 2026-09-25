@@ -152,7 +152,7 @@ async function runNewProjectFlow(projectName, options) {
         `"${projectName}" already exists and has a package.json.`
       );
       logger.info(
-        `To configure NativeWind in an existing project, run:\n\n    cd ${projectName}\n    npx rn-css .\n`
+        `To configure NativeWind in an existing project, run:\n\n    cd ${projectName}\n    npx create-rn-css .\n`
       );
       process.exit(1);
     }
@@ -335,7 +335,7 @@ function run() {
     .description(
       "Create or configure a React Native Expo project with NativeWind and TypeScript"
     )
-    .version("1.0.0")
+    .version(require("../package.json").version)
     .argument(
       "<name-or-path>",
       'Project name (new) or "." / "./path" (existing project)'
